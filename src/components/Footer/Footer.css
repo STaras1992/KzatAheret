@@ -1,1 +1,34 @@
-/* No CSS *//*# sourceMappingURL=Footer.css.map */
+.footer {
+  background-color: #1f1c1c;
+  width: 100%;
+  height: 250px;
+  margin-top: auto;
+  color: white;
+}
+
+.fas {
+  font-size: 1.5rem;
+}
+
+.fas.fa-home {
+  font-size: 1.2rem;
+}
+
+.days {
+  font-weight: 600;
+  font-size: 1.2rem;
+}
+
+.contacts {
+  line-height: 2rem;
+}
+
+.footer-logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+/*# sourceMappingURL=Footer.css.map */

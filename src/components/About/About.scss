@@ -1,0 +1,24 @@
+.about {
+}
+
+.desc {
+  width: 100%;
+  margin-bottom: 4rem;
+  margin-top: 4rem;
+  margin-right: 3rem;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  .descriptionImage {
+    object-fit: center;
+    width: 50%;
+    height: 50%;
+  }
+  .description {
+    font-size: 1.3rem;
+    min-width: 20%;
+    max-width: 40%;
+    padding: 0 1rem;
+  }
+}

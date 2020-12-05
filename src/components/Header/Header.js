@@ -1,16 +1,13 @@
 import React from 'react';
+import { NavLink } from 'react-router-dom';
 import './Header.css';
 import logo from '../../resources/images/logo.png';
 
 const Header = () => {
   return (
     <header className='navigation'>
-      <nav className='navbar navbar-expand-lg main-nav py-lg-3 position-absolute w-100 bg-dark' id='main-nav'>
+      <nav className='navbar navbar-expand-lg  position-relative w-100 bg-dark'>
         <div className='container'>
-          <a className='navbar-brand' href='index.html'>
-            <img src={logo} alt='logo' className='img-fluid' />
-          </a>
-
           <button
             className='navbar-toggler collapsed bg-light'
             type='button'
@@ -26,33 +23,36 @@ const Header = () => {
           <div className='collapse navbar-collapse' id='navigation'>
             <ul className='navbar-nav ml-auto'>
               <li className='nav-item active'>
-                <a className='nav-link' href='index.html'>
-                  Home
-                </a>
+                <NavLink to='/' className='nav-link'>
+                  דף הבית
+                </NavLink>
               </li>
               <li className='nav-item'>
-                <a className='nav-link' href='about.html'>
-                  About
-                </a>
+                <NavLink to='/about' className='nav-link'>
+                  עלינו
+                </NavLink>
               </li>
               <li className='nav-item'>
-                <a className='nav-link' href='menu.html'>
-                  Recipes
-                </a>
+                <NavLink to='/menu' className='nav-link'>
+                  תפריט
+                </NavLink>
               </li>
               <li className='nav-item'>
-                <a className='nav-link' href='gallery.html'>
-                  Gallery
-                </a>
+                <NavLink to='/gallery' className='nav-link'>
+                  גלריה
+                </NavLink>
               </li>
 
               <li className='nav-item'>
-                <a className='nav-link' href='contact.html'>
-                  Contact
-                </a>
+                <NavLink to='/contact' className='nav-link'>
+                  צור קשר
+                </NavLink>
               </li>
             </ul>
           </div>
+          <a className='navbar-brand' href='index.html'>
+            <img src={logo} alt='logo' className='img-fluid' />
+          </a>
         </div>
       </nav>
     </header>
