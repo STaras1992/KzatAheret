@@ -1,0 +1,1 @@
+const FOOTER_HEIGTH = 250;

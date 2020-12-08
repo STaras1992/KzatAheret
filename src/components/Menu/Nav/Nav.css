@@ -1,0 +1,12 @@
+.menu-nav li {
+  list-style: none;
+}
+
+.menu-nav .nav-link {
+  color: black;
+}
+
+.menu-nav .menu-nav {
+  width: 100%;
+}
+/*# sourceMappingURL=Nav.css.map */

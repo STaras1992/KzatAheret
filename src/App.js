@@ -5,6 +5,7 @@ import Main from './components/Main/Main.js';
 import Footer from './components/Footer/Footer.js';
 import About from './components/About/About.js';
 import Menu from './components/Menu/Menu.js';
+import Contact from './components/Contact/Contact.js';
 import './App.css';
 
 const App = () => {
@@ -17,6 +18,7 @@ const App = () => {
           <Route exact path='/' render={(routeParams) => <Main {...routeParams} />} />
           <Route exact path='/about' render={(routeParams) => <About {...routeParams} />} />
           <Route exact path='/menu' render={(routeParams) => <Menu {...routeParams} />} />
+          <Route exact path='/contact' render={(routeParams) => <Contact {...routeParams} />} />
         </Switch>
       </div>
       <Footer />

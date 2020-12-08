@@ -1,0 +1,27 @@
+.contact {
+  //   display: flex;
+  width: 100%;
+  height: 100%;
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: #dddce1;
+  overflow: 'scroll';
+  .contact-container {
+    width: 100%;
+    //margin: 20px 10px 10px 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .contact-title {
+    display: flex;
+    justify-content: center;
+    img {
+      width: 100%;
+      object-fit: cover;
+    }
+  }
+  .contact-content {
+  }
+}

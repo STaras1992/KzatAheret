@@ -1,0 +1,201 @@
+.product-cards-list * {
+  margin: 0;
+  padding: 0;
+  font-family: "Sofia", sans-serif;
+}
+
+.product-cards-list h2 {
+  color: #0a4870;
+  font-weight: 500;
+}
+
+.product-cards-list ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  list-style: none;
+  padding: 0;
+}
+
+.product-cards-list ul .booking-card {
+  position: relative;
+  width: 500px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 500px;
+          flex: 0 0 500px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin: 20px;
+  margin-bottom: 30px;
+  border-radius: 10px;
+  overflow: hidden;
+  background-position: center center;
+  background-size: cover;
+  text-align: center;
+  color: #0a4870;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.product-cards-list ul .booking-card::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(10, 72, 112, 0);
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.product-cards-list ul .booking-card .book-container {
+  height: 400px;
+}
+
+.product-cards-list ul .booking-card .book-container .content {
+  position: relative;
+  opacity: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 100%;
+  width: 100%;
+  -webkit-transform: translateY(-200px);
+          transform: translateY(-200px);
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.product-cards-list ul .booking-card .book-container .content .btn {
+  border: 3px solid white;
+  padding: 10px 15px;
+  background: none;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 1.3em;
+  color: white;
+  cursor: pointer;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.product-cards-list ul .booking-card .book-container .content .btn:hover {
+  background: white;
+  border: 0px solid white;
+  color: #0a4870;
+}
+
+.product-cards-list ul .booking-card .informations-container {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 0 auto;
+          flex: 1 0 auto;
+  padding: 20px;
+  background: #f0f0f0;
+  -webkit-transform: translateY(200px);
+          transform: translateY(200px);
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.product-cards-list ul .booking-card .informations-container .title {
+  position: relative;
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+  font-weight: bold;
+  font-size: 1.3em;
+}
+
+.product-cards-list ul .booking-card .informations-container .title::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 3px;
+  width: 50px;
+  margin: auto;
+  background: #0a4870;
+}
+
+.product-cards-list ul .booking-card .informations-container .price {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 10px;
+}
+
+.product-cards-list ul .booking-card .informations-container .price .icon {
+  margin-right: 10px;
+}
+
+.product-cards-list ul .booking-card .informations-container .more-information {
+  opacity: 0;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.product-cards-list ul .booking-card .informations-container .more-information .disclaimer {
+  margin-top: 20px;
+  font-size: 0.9em;
+  color: #7d7d7d;
+}
+
+.product-cards-list ul .booking-card:hover::before {
+  background: rgba(10, 72, 112, 0.6);
+}
+
+.product-cards-list ul .booking-card:hover .book-container .content {
+  opacity: 1;
+  -webkit-transform: translateY(0px);
+          transform: translateY(0px);
+}
+
+.product-cards-list ul .booking-card:hover .informations-container {
+  -webkit-transform: translateY(0px);
+          transform: translateY(0px);
+}
+
+.product-cards-list ul .booking-card:hover .informations-container .more-information {
+  opacity: 1;
+}
+
+@media (max-width: 768px) {
+  ul .booking-card::before {
+    background: rgba(10, 72, 112, 0.6);
+  }
+  ul .booking-card .book-container .content {
+    opacity: 1;
+    -webkit-transform: translateY(0px);
+            transform: translateY(0px);
+  }
+  ul .booking-card .informations-container {
+    -webkit-transform: translateY(0px);
+            transform: translateY(0px);
+  }
+  ul .booking-card .informations-container .more-information {
+    opacity: 1;
+  }
+}
+/*# sourceMappingURL=ProductCardsList.css.map */

@@ -18,16 +18,17 @@ const BannerSwiper = () => {
       </SwiperSlide>
     );
   }
+  console.log(sliders);
 
   return (
     <div>
       <Swiper
         spaceBetween={0}
         slidesPerView={1}
-        speed={800}
-        //effect='fade'
+        //speed={800}
+        effect='fade'
         //grabCursor={true}
-        treshold={10} // min px to swipe
+        //treshold={10} // min px to swipe
         loop={true}
         wrapperTag='ul'
         pagination={{ clickable: true, type: 'bullets' }}
