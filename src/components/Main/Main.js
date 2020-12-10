@@ -1,11 +1,13 @@
-import React from 'react';
-import Banner from '../Banner/Banner.js';
+import React from "react";
+import Banner from "../Banner/Banner.js";
 
 const Main = () => {
   return (
-    <div className='main'>
-      <Banner />
-    </div>
+    <section className="main">
+      <div className="container p-0 ">
+        <Banner />
+      </div>
+    </section>
   );
 };
 

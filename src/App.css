@@ -1,10 +1,10 @@
 .app {
-  display: flex;
+  /* display: flex;
   width: 100%;
   min-height: 100vh;
   flex-direction: column;
-  /* justify-content: center;
-  align-items: center; */
+  justify-content: center;
+  align-items: center;  */
 }
 
 .content {
