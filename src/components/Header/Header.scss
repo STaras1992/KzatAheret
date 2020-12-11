@@ -12,9 +12,36 @@
     letter-spacing: 0.5px;
     position: relative;
   }
+
+  .nav-link:after {
+    position: absolute;
+    width: 75%;
+    height: 3px;
+    opacity: 0;
+    display: block;
+    content: "";
+    color: yellow;
+    background-color: yellow;
+    z-index: 5;
+    transition: 0.3s;
+  }
+
+  .nav-link:hover {
+    color: yellow;
+  }
+  .nav-link:hover:after {
+    opacity: 1;
+  }
 }
 
 .navbar {
+  width: 100%;
   opacity: 1;
   z-index: 2;
+}
+
+@media screen and (min-width: 1960px) {
+  // .navbar {
+  //   widows: 1920px;
+  // }
 }

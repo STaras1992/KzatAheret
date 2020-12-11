@@ -8,12 +8,24 @@ const Contact = () => {
     <section className='contact'>
       <div className='contact-container'>
         <div className='contact-content'>
-          <p>phone</p>
-          <p>adress</p>
-          <p>facebook</p>
-          <p>email</p>
+          <h4>
+            <i className='fas fa-phone'></i> 089472567
+          </h4>
+          <h4>
+            <i class='fas fa-home'></i> בית הפועלים 5,רחובות
+          </h4>
+          <div className='icon'>
+            <i class='fas fa-thumbs-up'></i>
+          </div>
+          <div className='social-links'>
+            <i class='fas fa-thumbs-up'></i>
+            &nbsp;&nbsp;&nbsp;&nbsp;
+            <i class='fab fa-facebook-square'></i>
+            &nbsp;
+            <i class='fab fa-instagram-square'></i>
+          </div>
         </div>
-        <div className='contact-title'>
+        <div className='contact-image'>
           <img src={titleImage} alt='title' />
         </div>
       </div>
