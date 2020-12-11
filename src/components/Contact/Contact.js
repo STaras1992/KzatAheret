@@ -5,25 +5,19 @@ import './Contact.scss';
 
 const Contact = () => {
   return (
-    <div
-      className='contact'
-      style={{
-        backgroundImage: `url(${titleImage})`,
-      }}
-    >
-      <section className='contact-container'>
-        {/* <div className='contact-title'>
-          <img src={`url(${titleImage2})`} alt='title' />
-        </div> */}
+    <section className='contact'>
+      <div className='contact-container'>
         <div className='contact-content'>
           <p>phone</p>
           <p>adress</p>
           <p>facebook</p>
           <p>email</p>
         </div>
-        <div></div>
-      </section>
-    </div>
+        <div className='contact-title'>
+          <img src={titleImage} alt='title' />
+        </div>
+      </div>
+    </section>
   );
 };
 
