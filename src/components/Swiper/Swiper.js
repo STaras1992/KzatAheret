@@ -21,7 +21,7 @@ const BannerSwiper = () => {
   console.log(sliders);
 
   return (
-    <div>
+    <div className='swiper'>
       <Swiper
         spaceBetween={0}
         slidesPerView={1}

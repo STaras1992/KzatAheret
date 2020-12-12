@@ -1,15 +1,21 @@
+@import '../../scss/variables/_variables.scss';
+
 .contact {
-  display: flex;
-  background-color: #fff;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-position: 50% 50%;
+  background-attachment: none;
+
   .contact-container {
-    max-width: 1920px;
-    //margin: 20px 10px 10px 10px;
+    height: calc(100vh - #{$headerSize} - #{$footerSize});
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     .contact-image {
       img {
+        width: 100%;
+        transform: rotate(270deg);
         object-fit: cover;
       }
     }
@@ -19,16 +25,68 @@
       flex-direction: column;
       justify-content: center;
       align-items: center;
-      h4 {
-        margin: 10px;
+      h1 {
+        color: #212f3d;
+        font-size: 1.5rem;
+        font-weight: 600;
+        margin-bottom: 20px;
       }
-      .icon {
-        font-size: 3rem;
-        color: green;
-      }
-      .social-links {
-        color: blue;
+      .fas {
+        padding-right: 20px;
         font-size: 2rem;
+        color: #018c2d;
+      }
+
+      .fab {
+        padding-right: 50px;
+        font-size: 3rem;
+        color: #1b3191;
+      }
+
+      @media (min-width: 567px) {
+        h1 {
+          font-size: 2.2rem;
+        }
+        .fas {
+          font-size: 3rem;
+        }
+        .fab {
+          font-size: 4rem;
+        }
+      }
+
+      @media (min-width: 992px) {
+        h1 {
+          font-size: 2.8rem;
+        }
+        .fas {
+          font-size: 4rem;
+        }
+        .fab {
+          font-size: 5rem;
+        }
+      }
+    }
+    .contact-bottom-title {
+      margin-right: 40px;
+      margin-top: 20px;
+      font-size: 2.1rem;
+      font-weight: normal;
+      color: #e55220;
+    }
+
+    @media (min-width: 567px) {
+      .contact-bottom-title {
+        margin-right: 80px;
+        font-size: 2.4rem;
+      }
+    }
+
+    @media (min-width: 992px) {
+      .contact-bottom-title {
+        margin-right: 80px;
+        font-size: 2.9rem;
+        font-weight: bold;
       }
     }
   }

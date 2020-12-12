@@ -1,32 +1,34 @@
 import React from 'react';
 import titleImage from '../../resources/images/contact/contact3.jpg';
+import back1 from '../../resources/images/background/transparent1.png';
 import titleImage2 from '../../resources/images/contact/contact2.jpg';
 import './Contact.scss';
 
 const Contact = () => {
   return (
-    <section className='contact'>
-      <div className='contact-container'>
+    <section className='contact' style={{ backgroundImage: `url(${back1})` }}>
+      <div className='contact-container container'>
         <div className='contact-content'>
-          <h4>
+          <h1>
             <i className='fas fa-phone'></i> 089472567
-          </h4>
-          <h4>
+          </h1>
+          <h1>
             <i class='fas fa-home'></i> בית הפועלים 5,רחובות
-          </h4>
-          <div className='icon'>
+          </h1>
+          {/* <div className='icon'>
             <i class='fas fa-thumbs-up'></i>
-          </div>
+          </div> */}
           <div className='social-links'>
-            <i class='fas fa-thumbs-up'></i>
-            &nbsp;&nbsp;&nbsp;&nbsp;
             <i class='fab fa-facebook-square'></i>
             &nbsp;
             <i class='fab fa-instagram-square'></i>
           </div>
         </div>
-        <div className='contact-image'>
+        {/* <div className='contact-image'>
           <img src={titleImage} alt='title' />
+        </div> */}
+        <div className='contact-bottom-title'>
+          <p>בשבילכם אידה וזאב...</p>
         </div>
       </div>
     </section>

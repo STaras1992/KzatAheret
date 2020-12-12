@@ -1,47 +1,21 @@
 .footer {
   background-color: #1f1c1c;
   width: 100%;
-  height: 250px;
-  margin-top: auto;
-  color: white;
 }
 
-.fas {
-  font-size: 1.5rem;
-}
-
-.fas.fa-home {
-  font-size: 1.2rem;
-}
-
-.days {
-  font-weight: 600;
-  font-size: 1.2rem;
-}
-
-.contacts {
-  background-color: #1f1c1c;
-  line-height: 2rem;
-}
-
-@media (max-width: 720px) {
-  .contacts {
-    width: 100%;
-  }
-}
-
-.footer-logo {
+.footer .footer-container {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-}
-
-@media (max-width: 480px) {
-  .footer-logo {
-    display: none;
-  }
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  color: white;
+  font-size: calc(12px + 4 * ((100vw - 320px) / 1600));
+  padding: calc(5px + 25 * ((100vw - 320px) / 1600));
 }
 /*# sourceMappingURL=Footer.css.map */

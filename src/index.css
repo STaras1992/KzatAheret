@@ -1,3 +1,23 @@
+/*reset*/
+::before,
+::after {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul,
+ol,
+li {
+  list-style: none;
+}
+
 html {
   height: 100%;
   overflow-x: hidden;
@@ -8,8 +28,6 @@ body {
   font-family: 'Open Sans', sans-serif;
   -webkit-font-smoothing: antialiased;
   font-size: 16px;
-  font-weight: 400;
-  letter-spacing: 0.166667px;
-  line-height: 1.7em;
   color: #7e8690;
 }
+/*# sourceMappingURL=index.css.map */

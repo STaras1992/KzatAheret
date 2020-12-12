@@ -1,0 +1,9 @@
+@mixin adaptive-fontSize($startSize, $maxSize) {
+  $diffSize: $maxSize - $startSize;
+  font-size: calc(#{$startSize + px} + #{$diffSize} * ((100vw - #{$minWidth + px}) / #{$maxWidth - $minWidth}));
+}
+
+@mixin adaptive-padding($startSize, $maxSize) {
+  $diffSize: $maxSize - $startSize;
+  padding: calc(#{$startSize + px} + #{$diffSize} * ((100vw - #{$minWidth + px}) / #{$maxWidth - $minWidth}));
+}

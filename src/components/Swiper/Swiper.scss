@@ -1,26 +1,17 @@
-.swiper-container {
-  width: 100%;
-  height: 100%;
-}
-
 .swiper-wrapper {
   padding: 0;
 }
 
 .slide-inner {
-  width: 100%;
-  height: 100%;
 }
 
 .swiper-container {
-  width: 100%;
-  height: 100%;
-  overflow: hidden;
+  //overflow: hidden;
 }
 .swiper-slide img {
   width: 100%;
-  height: 600px;
+  height: 400px;
   object-fit: cover;
-  // background-size: cover;
+  // object-position: 50% 50%;
   /*this one holds the dimension of each slides and can be changed according to the user wish*/
 }

@@ -1,11 +1,8 @@
-.menu-nav {
-  li {
-    list-style: none;
-  }
+.nav-container {
+  text-align: center;
+  justify-content: center !important;
   .nav-link {
-    color: black;
-  }
-  .menu-nav {
-    width: 100%;
+    font-size: 20px;
+    font-weight: bold;
   }
 }

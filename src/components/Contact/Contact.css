@@ -1,14 +1,36 @@
 .contact {
-  width: 100%;
-  height: 100%;
-  background-size: contain;
-  background-position: center;
   background-repeat: no-repeat;
-  background-color: #dddce1;
-  overflow: 'scroll';
+  background-size: 100% 100%;
+  background-position: 50% 50%;
+  background-attachment: none;
 }
 
 .contact .contact-container {
+  height: calc(100vh - 100px - 200px);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.contact .contact-container .contact-image img {
+  width: 100%;
+  -webkit-transform: rotate(270deg);
+          transform: rotate(270deg);
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.contact .contact-container .contact-content {
   width: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -20,20 +42,74 @@
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
-.contact .contact-title {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+.contact .contact-container .contact-content h1 {
+  color: #212f3d;
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-bottom: 20px;
 }
 
-.contact .contact-title img {
-  width: 100%;
-  -o-object-fit: cover;
-     object-fit: cover;
+.contact .contact-container .contact-content .fas {
+  padding-right: 20px;
+  font-size: 2rem;
+  color: #018c2d;
+}
+
+.contact .contact-container .contact-content .fab {
+  padding-right: 50px;
+  font-size: 3rem;
+  color: #1b3191;
+}
+
+@media (min-width: 567px) {
+  .contact .contact-container .contact-content h1 {
+    font-size: 2.2rem;
+  }
+  .contact .contact-container .contact-content .fas {
+    font-size: 3rem;
+  }
+  .contact .contact-container .contact-content .fab {
+    font-size: 4rem;
+  }
+}
+
+@media (min-width: 992px) {
+  .contact .contact-container .contact-content h1 {
+    font-size: 2.8rem;
+  }
+  .contact .contact-container .contact-content .fas {
+    font-size: 4rem;
+  }
+  .contact .contact-container .contact-content .fab {
+    font-size: 5rem;
+  }
+}
+
+.contact .contact-container .contact-bottom-title {
+  margin-right: 40px;
+  margin-top: 20px;
+  font-size: 2.1rem;
+  font-weight: normal;
+  color: #e55220;
+}
+
+@media (min-width: 567px) {
+  .contact .contact-container .contact-bottom-title {
+    margin-right: 80px;
+    font-size: 2.4rem;
+  }
+}
+
+@media (min-width: 992px) {
+  .contact .contact-container .contact-bottom-title {
+    margin-right: 80px;
+    font-size: 2.9rem;
+    font-weight: bold;
+  }
 }
 /*# sourceMappingURL=Contact.css.map */

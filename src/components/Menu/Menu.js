@@ -7,14 +7,14 @@ import './Menu.scss';
 
 const Menu = () => {
   return (
-    <div className='menu container'>
+    <section className='menu'>
       <nav className='menu-navbar'>
         <Nav />
       </nav>
       <section className='product-items'>
         <ProductCardsList />
       </section>
-    </div>
+    </section>
   );
 };
 

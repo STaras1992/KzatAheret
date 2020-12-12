@@ -23,13 +23,13 @@
 
 .product-cards-list ul .booking-card {
   position: relative;
-  width: 500px;
+  width: 300px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-flex: 0;
-      -ms-flex: 0 0 500px;
-          flex: 0 0 500px;
+      -ms-flex: 0 0 300px;
+          flex: 0 0 300px;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
@@ -59,7 +59,7 @@
 }
 
 .product-cards-list ul .booking-card .book-container {
-  height: 400px;
+  height: 300px;
 }
 
 .product-cards-list ul .booking-card .book-container .content {
