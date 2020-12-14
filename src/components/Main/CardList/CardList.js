@@ -8,11 +8,7 @@ const CardList = () => {
     <div className="cards-container">
       <MainCard title="title1" text="absafasf" image={image1}></MainCard>
       <MainCard title="title2" text="aasfa" image={image1}></MainCard>
-      <MainCard
-        title="title3"
-        text="aasfaasfasfaf asfasf saf"
-        image={image1}
-      ></MainCard>
+      <MainCard title="title3" text="aasfaasfasfaf" image={image1}></MainCard>
     </div>
   );
 };
