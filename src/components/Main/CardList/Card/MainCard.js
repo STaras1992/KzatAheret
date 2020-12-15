@@ -24,15 +24,33 @@ const theme = createMuiTheme({
 
 const useStyles = makeStyles((theme) => ({
   root: {
-    width: "100%",
-    // [theme.breakpoints.up("sm")]: {
-    //   width: "100",
-    // },
+    width: "300px",
+    [theme.breakpoints.up("sm")]: {
+      width: "150px",
+    },
+    [theme.breakpoints.up("md")]: {
+      width: "300px",
+    },
+    [theme.breakpoints.up("lg")]: {
+      width: "350px",
+    },
+    [theme.breakpoints.up("xl")]: {
+      width: "380px",
+    },
   },
   media: {
     height: "150px",
     [theme.breakpoints.up("sm")]: {
+      height: "130px",
+    },
+    [theme.breakpoints.up("md")]: {
       height: "200px",
+    },
+    [theme.breakpoints.up("lg")]: {
+      width: "250px",
+    },
+    [theme.breakpoints.up("xl")]: {
+      width: "300px",
     },
   },
 }));
@@ -46,10 +64,15 @@ const MainCard = ({ title, text, image }) => {
         <CardActionArea>
           <CardMedia className={classes.media} image={image} title="title1" />
           <CardContent>
-            <Typography gutterBottom variant="h5" component="h2">
+            <Typography align="center" gutterBottom variant="h5" component="h2">
               {title}
             </Typography>
-            <Typography variant="body2" color="textSecondary" component="p">
+            <Typography
+              align="center"
+              variant="body2"
+              color="textSecondary"
+              component="p"
+            >
               {text}
             </Typography>
           </CardContent>
