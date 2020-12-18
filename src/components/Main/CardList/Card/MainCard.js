@@ -14,9 +14,9 @@ const theme = createMuiTheme({
   breakpoints: {
     values: {
       xs: 0,
-      sm: 567,
-      md: 992,
-      lg: 1200,
+      sm: 576,
+      md: 768,
+      lg: 1280,
       xl: 1920,
     },
   },
@@ -24,22 +24,22 @@ const theme = createMuiTheme({
 
 const useStyles = makeStyles((theme) => ({
   root: {
-    width: "300px",
-    [theme.breakpoints.up("sm")]: {
-      width: "150px",
-    },
-    [theme.breakpoints.up("md")]: {
-      width: "300px",
-    },
-    [theme.breakpoints.up("lg")]: {
-      width: "350px",
-    },
-    [theme.breakpoints.up("xl")]: {
-      width: "380px",
-    },
+    width: "80%",
+    // [theme.breakpoints.up("sm")]: {
+    //   width: "30%",
+    // },
+    // [theme.breakpoints.up("md")]: {
+    //   width: "300px",
+    // },
+    // [theme.breakpoints.up("lg")]: {
+    //   width: "350px",
+    // },
+    // [theme.breakpoints.up("xl")]: {
+    //   width: "380px",
+    // },
   },
   media: {
-    height: "150px",
+    height: "200px",
     [theme.breakpoints.up("sm")]: {
       height: "130px",
     },
@@ -49,9 +49,9 @@ const useStyles = makeStyles((theme) => ({
     [theme.breakpoints.up("lg")]: {
       width: "250px",
     },
-    [theme.breakpoints.up("xl")]: {
-      width: "300px",
-    },
+    // [theme.breakpoints.up("xl")]: {
+    //   width: "300px",
+    // },
   },
 }));
 
@@ -63,7 +63,7 @@ const MainCard = ({ title, text, image }) => {
       <Card className={classes.root}>
         <CardActionArea>
           <CardMedia className={classes.media} image={image} title="title1" />
-          <CardContent>
+          <CardContent style={{ backgroundColor: "#f0e7b2" }}>
             <Typography align="center" gutterBottom variant="h5" component="h2">
               {title}
             </Typography>
