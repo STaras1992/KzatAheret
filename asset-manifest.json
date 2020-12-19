@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/KzatAheret/static/css/main.a2a6af67.chunk.css",
-    "main.js": "/KzatAheret/static/js/main.e43cf3d3.chunk.js",
-    "main.js.map": "/KzatAheret/static/js/main.e43cf3d3.chunk.js.map",
+    "main.js": "/KzatAheret/static/js/main.5e0b4e22.chunk.js",
+    "main.js.map": "/KzatAheret/static/js/main.5e0b4e22.chunk.js.map",
     "runtime-main.js": "/KzatAheret/static/js/runtime-main.ca843aab.js",
     "runtime-main.js.map": "/KzatAheret/static/js/runtime-main.ca843aab.js.map",
     "static/css/2.ef10f8b8.chunk.css": "/KzatAheret/static/css/2.ef10f8b8.chunk.css",
-    "static/js/2.59998dcf.chunk.js": "/KzatAheret/static/js/2.59998dcf.chunk.js",
-    "static/js/2.59998dcf.chunk.js.map": "/KzatAheret/static/js/2.59998dcf.chunk.js.map",
+    "static/js/2.8fa0f063.chunk.js": "/KzatAheret/static/js/2.8fa0f063.chunk.js",
+    "static/js/2.8fa0f063.chunk.js.map": "/KzatAheret/static/js/2.8fa0f063.chunk.js.map",
     "index.html": "/KzatAheret/index.html",
     "static/css/2.ef10f8b8.chunk.css.map": "/KzatAheret/static/css/2.ef10f8b8.chunk.css.map",
     "static/css/main.a2a6af67.chunk.css.map": "/KzatAheret/static/css/main.a2a6af67.chunk.css.map",
-    "static/js/2.59998dcf.chunk.js.LICENSE.txt": "/KzatAheret/static/js/2.59998dcf.chunk.js.LICENSE.txt",
+    "static/js/2.8fa0f063.chunk.js.LICENSE.txt": "/KzatAheret/static/js/2.8fa0f063.chunk.js.LICENSE.txt",
     "static/media/aboutDesc.c38e02f1.jpg": "/KzatAheret/static/media/aboutDesc.c38e02f1.jpg",
     "static/media/banner1.69fb44b0.jpg": "/KzatAheret/static/media/banner1.69fb44b0.jpg",
     "static/media/banner4.485915e7.jpg": "/KzatAheret/static/media/banner4.485915e7.jpg",
@@ -43,8 +43,8 @@
   "entrypoints": [
     "static/js/runtime-main.ca843aab.js",
     "static/css/2.ef10f8b8.chunk.css",
-    "static/js/2.59998dcf.chunk.js",
+    "static/js/2.8fa0f063.chunk.js",
     "static/css/main.a2a6af67.chunk.css",
-    "static/js/main.e43cf3d3.chunk.js"
+    "static/js/main.5e0b4e22.chunk.js"
   ]
 }
