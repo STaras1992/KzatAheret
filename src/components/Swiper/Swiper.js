@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 import SwiperCore, { Navigation, Pagination, Scrollbar, Autoplay, EffectFade } from 'swiper';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/components/navigation/navigation.scss';
@@ -6,6 +6,8 @@ import 'swiper/components/pagination/pagination.scss';
 import 'swiper/swiper-bundle.css';
 import './Swiper.css';
 import { getBannerImagesArray } from '../../utills/imageUtills.js';
+
+SwiperCore.use([Navigation, Pagination, Autoplay]);
 
 const BannerSwiper = () => {
   const images = getBannerImagesArray();
@@ -25,17 +27,17 @@ const BannerSwiper = () => {
       <Swiper
         spaceBetween={0}
         slidesPerView={1}
-        //speed={800}
-        effect='fade'
+        speed={800}
+        // effect='fade'
         //grabCursor={true}
-        //treshold={10} // min px to swipe
+        treshold={10} // min px to swipe
         loop={true}
         wrapperTag='ul'
         pagination={{ clickable: true, type: 'bullets' }}
-        //scrollbar
-        autoplay={{ delay: 5000, disableOnInteraction: false }}
-        onSlideChange={() => console.log('slide change')}
-        onSwiper={(swiper) => console.log(swiper)}
+        scrollbar
+        autoplay={{ delay: 3000, disableOnInteraction: false }}
+        // onSlideChange={() => console.log('slide change')}
+        // onSwiper={(swiper) => console.log(swiper)}
       >
         {sliders}
       </Swiper>
