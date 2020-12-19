@@ -1,7 +1,5 @@
 import React from 'react';
-import titleImage from '../../resources/images/contact/contact3.jpg';
 import back1 from '../../resources/images/background/transparent1.png';
-import titleImage2 from '../../resources/images/contact/contact2.jpg';
 import './Contact.scss';
 
 const Contact = () => {
@@ -28,9 +26,6 @@ const Contact = () => {
             </a>
           </div>
         </div>
-        {/* <div className='contact-image'>
-          <img src={titleImage} alt='title' />
-        </div> */}
         <div className='contact-bottom-title'>
           <p>בשבילכם אידה וזאב...</p>
         </div>

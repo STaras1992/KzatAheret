@@ -1,5 +1,4 @@
 import React from 'react';
-import logo from '../../resources/images/logo.png';
 import './Footer.scss';
 
 const Footer = () => {
@@ -40,10 +39,6 @@ const Footer = () => {
           </ul>
         </div>
       </div>
-      {/* 
-      <div className='footer-logo'>
-        <img src={logo} alt='footer-logo' className='img-fluid logo' />
-      </div> */}
     </footer>
   );
 };

@@ -23,11 +23,6 @@ const Nav = ({ category }) => {
               עוגות
             </NavLink>
           </li>
-          {/* <li className='nav-item'>
-            <a href='#' className='nav-link'>
-              עוגות
-            </a>
-          </li> */}
           <li className='nav-item'>
             <NavLink to='/menu/sandwiches' className={activeCategory === 'sandwiches' ? 'nav-link active' : 'nav-link'}>
               סנדויצ'ים
@@ -37,27 +32,6 @@ const Nav = ({ category }) => {
       </div>
     </nav>
   );
-  // return (
-  //   <div>
-  //     <ul className='menu-nav d-flex justify-content-around'>
-  //       <li className='nav-item'>
-  //         <a className='nav-link' href='#'>
-  //           לחם
-  //         </a>
-  //       </li>
-  //       <li className='nav-item'>
-  //         <a className='nav-link' href='#'>
-  //           לחמניות
-  //         </a>
-  //       </li>
-  //       <li className='nav-item'>
-  //         <a className='nav-link' href='#'>
-  //           עוגות
-  //         </a>
-  //       </li>
-  //     </ul>
-  //   </div>
-  // );
 };
 
 export default Nav;

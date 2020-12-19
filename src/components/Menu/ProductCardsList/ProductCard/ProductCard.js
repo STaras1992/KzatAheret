@@ -1,5 +1,4 @@
 import React from 'react';
-import product1 from '../../../../resources/images/product/product2.jpg';
 import './ProductCard.css';
 
 const ProductCard = ({ title, text, price, image }) => {

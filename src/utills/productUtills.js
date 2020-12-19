@@ -4,11 +4,11 @@ export const getBreadData = () => {
   let array = [];
   const images = getBreadImages();
 
-  array.push({ title: 'לחם 1', text: 'לחם טוב וטעיםת', price: '18.90', image: images[0] });
-  array.push({ title: 'לחם 2', text: 'לחם טוב וטעיםת', price: '17.80', image: images[1] });
-  array.push({ title: 'לחם 3', text: 'לחם טוב וטעיםת', price: '18.90', image: images[2] });
-  array.push({ title: 'לחם 4', text: 'לחם טוב וטעיםת', price: '16.50', image: images[3] });
-  array.push({ title: 'לחם 5', text: 'לחם טוב וטעיםת', price: '18.90', image: images[4] });
+  array.push({ title: 'לחם 1', text: 'לחם טוב ומחיר מעולה', price: '18.90', image: images[0] });
+  array.push({ title: 'לחם 2', text: 'לחם טוב וטעים', price: '17.80', image: images[1] });
+  array.push({ title: 'לחם 3', text: 'לחם טוב וטעים', price: '18.90', image: images[2] });
+  array.push({ title: 'לחם 4', text: 'לחם מעולה', price: '16.50', image: images[3] });
+  array.push({ title: 'לחם 5', text: 'לחם ללא גלוטן', price: '18.90', image: images[4] });
 
   return array;
 };
