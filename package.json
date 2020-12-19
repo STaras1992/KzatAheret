@@ -1,8 +1,8 @@
 {
   "name": "kcat-aheret",
-  "homepage": "https://staras1992.github.io/KzatAheret/",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://staras1992.github.io/KzatAheret/",
   "dependencies": {
     "@material-ui/core": "^4.11.2",
     "@testing-library/jest-dom": "^5.11.6",
