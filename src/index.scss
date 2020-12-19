@@ -37,20 +37,6 @@ li {
   list-style: none;
 }
 
-// img {
-//   vertical-align: top;
-// }
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  // font-weight: inherit;
-  // font-size: inherit;
-}
-
 html {
   height: 100%;
   overflow-x: hidden;
@@ -62,16 +48,4 @@ body {
   -webkit-font-smoothing: antialiased;
   font-size: 16px;
   color: #7e8690;
-
-  @media (min-width: 576px) {
-  }
-
-  @media (min-width: 768px) {
-  }
-
-  @media (min-width: 992px) {
-  }
-
-  @media (min-width: 1200px) {
-  }
 }
