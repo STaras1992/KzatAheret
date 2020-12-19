@@ -23,6 +23,7 @@ const App = () => {
           />
           <Route exact path='/menu' render={(routeParams) => <Menu category='breads' {...routeParams} />} />
           <Route exact path='/contact' render={(routeParams) => <Contact {...routeParams} />} />
+          <Route render={(routeParams) => <Main {...routeParams} />} />
         </Switch>
       </div>
       <Footer />
