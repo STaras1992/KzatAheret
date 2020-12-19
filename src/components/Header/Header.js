@@ -45,7 +45,7 @@ const Header = () => {
               </li>
             </ul>
           </div>
-          <a className='navbar-brand' href='index.html'>
+          <a className='navbar-brand' href='#'>
             <img src={logo} alt='logo' className='img-fluid' />
           </a>
         </div>
