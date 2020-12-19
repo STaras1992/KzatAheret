@@ -6,7 +6,7 @@ import logo from '../../resources/images/logo.png';
 const Header = () => {
   return (
     <header className='navigation'>
-      <nav className='navbar navbar-expand-lg  position-relative w-100 bg-dark'>
+      <nav className='navbar navbar-expand-lg  position-relative w-100 '>
         <div className='container'>
           <button
             className='navbar-toggler collapsed bg-light'

@@ -13,15 +13,19 @@ const Contact = () => {
             <i className='fas fa-phone'></i> 089472567
           </h1>
           <h1>
-            <i class='fas fa-home'></i> בית הפועלים 5,רחובות
+            <i className='fas fa-home'></i> בית הפועלים 5,רחובות
           </h1>
           {/* <div className='icon'>
-            <i class='fas fa-thumbs-up'></i>
+            <i className='fas fa-thumbs-up'></i>
           </div> */}
           <div className='social-links'>
-            <i class='fab fa-facebook-square'></i>
+            <a a href='https://www.facebook.com/idazeev1' target='_blank' rel='noopener noreferrer'>
+              <i className='fab fa-facebook-square'></i>
+            </a>
             &nbsp;
-            <i class='fab fa-instagram-square'></i>
+            <a href='https://www.facebook.com/idazeev1' target='_blank' rel='noopener noreferrer'>
+              <i className='fab fa-instagram-square'></i>
+            </a>
           </div>
         </div>
         {/* <div className='contact-image'>

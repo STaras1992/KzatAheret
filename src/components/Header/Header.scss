@@ -1,6 +1,6 @@
 @import '../../scss/mixins/_mixins.scss';
 @import '../../scss/variables/_variables.scss';
-$back-color: rgb(31, 28, 28);
+$back-color: #a25300;
 
 .nav-item {
   .nav-link {
@@ -37,6 +37,7 @@ $back-color: rgb(31, 28, 28);
 }
 
 .navbar {
+  background: $back-color;
   opacity: 1;
   z-index: 2;
 }

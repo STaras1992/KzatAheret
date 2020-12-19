@@ -9,7 +9,6 @@ import Contact from './components/Contact/Contact.js';
 import './App.css';
 
 const App = () => {
-  console.log('render');
   return (
     <div className='app-container'>
       <Header />
@@ -17,7 +16,12 @@ const App = () => {
         <Switch>
           <Route exact path='/' render={(routeParams) => <Main {...routeParams} />} />
           <Route exact path='/about' render={(routeParams) => <About {...routeParams} />} />
-          <Route exact path='/menu' render={(routeParams) => <Menu {...routeParams} />} />
+          <Route
+            exact
+            path='/menu/:category'
+            render={(routeParams) => <Menu category={routeParams.match.params.category} {...routeParams} />}
+          />
+          <Route exact path='/menu' render={(routeParams) => <Menu category='breads' {...routeParams} />} />
           <Route exact path='/contact' render={(routeParams) => <Contact {...routeParams} />} />
         </Switch>
       </div>

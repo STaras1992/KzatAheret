@@ -1,4 +1,4 @@
-@import "../../scss/variables/_variables.scss";
+@import '../../scss/variables/_variables.scss';
 
 .contact {
   background-repeat: no-repeat;
@@ -42,6 +42,10 @@
         padding-right: 50px;
         font-size: 3rem;
         color: #1b3191;
+        &:hover {
+          font-size: 3.5rem;
+          color: red;
+        }
       }
 
       @media (min-width: 567px) {
@@ -53,6 +57,10 @@
         }
         .fab {
           font-size: 4rem;
+          &:hover {
+            font-size: 5rem;
+            color: red;
+          }
         }
       }
 
